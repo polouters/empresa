@@ -8,7 +8,7 @@
  */
 abstract class url
 {
-    private $raiz = "http://192.168.33.10/empresa";
+    private $raiz = "http://192.168.33.10/empresaBEW";
 
     /**
      * @return string

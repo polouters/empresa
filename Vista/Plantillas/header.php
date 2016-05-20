@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="<?php echo self::getRaiz()?>/index.php" class="navbar-brand logo"><img src="<?php echo self::getRaiz()?>/img/logo.png" alt="ColorssPalette" class="img-responsive imgLogo"></a>
+                <a href="<?php echo self::getRaiz()?>/index.php" class="navbar-brand logo"><img src="<?php echo self::getRaiz()?>/Vista/img/logo.png" alt="ColorssPalette" class="img-responsive imgLogo"></a>
             </div>
             <!--Inicia menú-->
             <div class="collapse navbar-collapse" id="navbar-1">
@@ -22,7 +22,7 @@
     <section class="jumbotron">
         <?php
             if(basename($_SERVER['PHP_SELF'])=="index.php"){
-                echo '<div class="container text-center"><img src="'.self::getRaiz().'/img/logo.png" alt="logo" class="imgJBT"><p>ColorssPalette</p></div>';
+                echo '<div class="container text-center"><img src="'.self::getRaiz().'Vista/img/logo.png" alt="logo" class="imgJBT"><p>ColorssPalette</p></div>';
             }elseif(basename($_SERVER['PHP_SELF'])=="palette.php"){
                 echo '<div class="container"><h1>Palette</h1><p>Choose from forty-eight colors for the background and font color</p></div>';
             }
