@@ -10,14 +10,13 @@ require_once __DIR__ . "/Plantillas/url.php";
 class empresaViews extends url
 {
     public static function home(){
-        require_once __DIR__ . "/Plantillas/cabecera.php";
-        require_once __DIR__ . "/Plantillas/header.php";
-        self::getRaiz();
+
+     require_once __DIR__.'/Plantillas/cabecera.php';
         ?>
         <section class="container" >
             <div class="row">
                 <article class="col-xs-12">
-
+                    <h1>BEW S</h1>
                 </article>
                 <article class="col-xs-12">
 
@@ -25,8 +24,7 @@ class empresaViews extends url
             </div>
         </section>
         <?php
-        require_once __DIR__ . "/Plantillas/footer.php";
-        require_once __DIR__ . "/Plantillas/pie.php";
+
     }
 
 
